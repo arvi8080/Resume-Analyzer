@@ -1,47 +1,41 @@
-👇
+ou can copy-paste this version directly.
+# 🤖 AI Resume Analyzer  
 
-🤖 AI Resume Analyzer
-AI Resume Analyzer is an intelligent tool built with Streamlit and OpenAI GPT that helps job seekers optimize their resumes for specific roles.
+![Project Banner](https://raw.githubusercontent.com/your-username/ai-resume-analyzer/main/assets/banner.png)
+
+**AI Resume Analyzer** is an intelligent tool built with **Streamlit** and **OpenAI GPT** that helps job seekers optimize their resumes for specific roles.  
 Just upload your resume (PDF) and paste a job description — the AI instantly gives you detailed feedback, highlights skill gaps, and provides improvement suggestions.
 
-🚀 Features
-✅ Upload your resume (PDF format)
-✅ Paste a job description for your desired role
+---
+<img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/520c499f-c7e1-41fd-bd41-6396fd610625" />
+<img width="1920" height="1080" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/9bb25536-097a-4e61-b11d-409dfbb11507" />
+
+
+## 🚀 Features  
+✅ Upload your resume (PDF format)  
+✅ Paste a job description for your desired role  
 ✅ Get AI-powered feedback on:
+- Resume-job match percentage  
+- Missing keywords and skills  
+- Actionable improvement tips  
 
-
-Resume-job match percentage
-
-
-Missing keywords and skills
-
-
-Actionable improvement tips
-✅ Clean and interactive Streamlit web interface
+✅ Clean and interactive Streamlit web interface  
 ✅ Works locally or can be deployed on the web (Streamlit Cloud / Render)
 
+---
+
+## 🧠 Tech Stack  
+- **Python 3.10+**  
+- **Streamlit** – for web UI  
+- **OpenAI GPT API** – for AI feedback  
+- **PyPDF2** – for extracting text from resumes  
+- **dotenv** – for managing API keys  
+
+---
+
+## 🗂️ Project Structure  
 
 
-🧠 Tech Stack
-
-
-Python 3.10+
-
-
-Streamlit – for web UI
-
-
-OpenAI GPT API – for AI feedback
-
-
-PyPDF2 – for extracting text from resumes
-
-
-dotenv – for managing API keys
-
-
-
-🗂️ Project Structure
 AI-Resume-Analyzer/
 │
 ├── app.py                # Main Streamlit app
@@ -50,9 +44,12 @@ AI-Resume-Analyzer/
 ├── README.md             # Project documentation
 └── sample_resume.pdf     # Example resume file (optional)
 
+---
 
-⚙️ Installation and Setup
-1️⃣ Clone the Repository
+## ⚙️ Installation and Setup  
+
+### 1️⃣ Clone the Repository  
+```bash
 git clone https://github.com/your-username/ai-resume-analyzer.git
 cd ai-resume-analyzer
 
@@ -72,7 +69,8 @@ OPENAI_API_KEY=your_api_key_here
 5️⃣ Run the App
 streamlit run app.py
 
-Then open your browser and go to 👉 https://resume-analyzer-nwrzr3y8xw8v5ejkuyszhk.streamlit.app/
+Then open your browser and go to 👉
+http://localhost:8501
 
 🌍 Deployment (Streamlit Cloud)
 
@@ -86,7 +84,7 @@ Go to Streamlit Cloud
 Click "New app"
 
 
-Connect your GitHub repo and select the branch & app.py
+Connect your repo and select app.py
 
 
 In Secrets, add:
@@ -97,6 +95,8 @@ OPENAI_API_KEY=your_api_key_here
 Click Deploy — your app will go live! 🎉
 
 
+🌐 Example deployed app:
+👉 AI Resume Analyzer Demo
 
 🧩 Example Output
 Input:
@@ -112,8 +112,15 @@ Output:
 ✅ Resume Match Score: 82%
 🧠 Missing Skills: TensorFlow, MLOps, LLM Fine-tuning
 💡 Suggestions:
-- Add a project demonstrating NLP experience.
-- Emphasize hands-on model deployment experience.
+
+
+Add a project demonstrating NLP experience.
+
+
+Emphasize hands-on model deployment experience.
+
+
+
 
 
 🧑‍💻 Author
@@ -125,3 +132,7 @@ Arvind Prajapati
 ⭐ Show Your Support
 If you like this project, please give it a ⭐ on GitHub — it helps others find it too!
 
+---
+
+
+Would you like me to generate a modern-looking banner and app screenshot preview (using your project name and color theme)? I can design them for you to use in the README.
