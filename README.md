@@ -1,4 +1,4 @@
-ou can copy-paste this version directly.
+https://resume-analyzer-nwrzr3y8xw8v5ejkuyszhk.streamlit.app/
 # 🤖 AI Resume Analyzer  
 
 ![Project Banner](https://raw.githubusercontent.com/your-username/ai-resume-analyzer/main/assets/banner.png)
