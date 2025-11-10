@@ -72,7 +72,7 @@ OPENAI_API_KEY=your_api_key_here
 5️⃣ Run the App
 streamlit run app.py
 
-Then open your browser and go to 👉 http://localhost:8501
+Then open your browser and go to 👉 https://resume-analyzer-nwrzr3y8xw8v5ejkuyszhk.streamlit.app/
 
 🌍 Deployment (Streamlit Cloud)
 
